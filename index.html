@@ -5,7 +5,7 @@
   <style>
     body { font-family: sans-serif; margin: 40px; max-width: 1200px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-    .card { border: 1px solid #ccc; padding: 20px; text-decoration: none; color: inherit; }
+    .card { border: 1px solid #ccc; padding: 20px; text-decoration: none; color: inherit; display: block; }
     .card:hover { background: #f5f5f5; }
     .card h3 { margin-top: 0; }
     .card img {
@@ -22,26 +22,31 @@
   <p>M.S. Mechanical Engineering, University of Florida</p>
   
   <div class="grid">
-    <img src= "OpticalRayPic.png" alt "AFRL Poster">
+
     <a href="AFRL_CAPSTONE_POSTER.pdf" class="card" target="_blank">
+      <img src="OpticalRayPic.png" alt="AFRL Poster">
       <h3>AFRL Scholar Capstone</h3>
       <p>AFRL Scholar Capstone, Aug 2025. Developed a GPU-accelerated optical ray tracer in Python and C++ with CUDA to characterize 3D biological lens geometries from micro-CT scans. Implemented vectorized Snell's Law on arbitrary 3D surfaces for next-generation aerial sensor research.</p>
     </a>
-    <img src= "SuperPositionPic.png" alt "BISCCIT Poster">
+
     <a href="Nico_Poster_BISCCIT_6_14_25.pdf" class="card" target="_blank">
+      <img src="SuperPositionPic.png" alt="BISCCIT Poster">
       <h3>BISCCITs Conference</h3>
       <p>BISCCITs International Conference, Jul 2025. Built a CUDA-accelerated graphical ray caster in C++ that simulates superposition vision in nocturnal insects, integrated with Blender scene files for comparative optical flow analysis across vision types.</p>
     </a>
-    <img src= "FEAProjectPic.png" alt "FEA Deformation">
-    <a href="FEA Project 1.pdf" class="card" target="_blank">
+
+    <a href="FEA_Project_1.pdf" class="card" target="_blank">
+      <img src="FEAProjectPic.png" alt="FEA Deformation">
       <h3>Hyperelastic Gasket Finite Element Analysis</h3>
-      <p>Calibrated Mooney-Rivlin and Ogden hyperelastic material parameters from experimental stress-strain data using Python and Abaqus. Performed mesh convergence study and iterated on gasket geometry to reduce deformed gap from 2.86 mm to 0.74 mm while controlling contact pressure. Tools: Abaqus, Python, scipy.</p>  
+      <p>Calibrated Mooney-Rivlin and Ogden hyperelastic material parameters from experimental stress-strain data using Python and Abaqus. Performed mesh convergence study and iterated on gasket geometry to reduce deformed gap from 2.86 mm to 0.74 mm while controlling contact pressure. Tools: Abaqus, Python, scipy.</p>
     </a>
-    <img src= "MasterThesisPic.png" alt "Masters Thesis">
+
     <a href="NicoThesisDefense.pdf" class="card" target="_blank">
+      <img src="MasterThesisPic.png" alt="Masters Thesis">
       <h3>M.S. Thesis Defense</h3>
-      <p>University of Florida, 2025. Multi-year research effort developing computational tools for analyzing biological visual systems. Includes two ray-based modeling projects, the ocellar optical ray tracer and the superposition/pooling renderer</p>
+      <p>University of Florida, 2025. Multi-year research effort developing computational tools for analyzing biological visual systems. Includes two ray-based modeling projects, the ocellar optical ray tracer and the superposition/pooling renderer.</p>
     </a>
+
   </div>
 </body>
 </html>
